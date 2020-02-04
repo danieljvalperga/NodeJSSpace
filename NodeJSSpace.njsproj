@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>44048491-7bf4-4e5e-b7ae-fadb0695102e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BinarySearch.js</StartupFile>
+    <StartupFile>TestBinarySearch.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -32,6 +32,9 @@
     <Content Include="app.js" />
     <Content Include="HeapSort.js" />
     <Content Include="BinarySearch.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="TestBinarySearch.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />

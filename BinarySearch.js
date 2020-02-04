@@ -23,3 +23,7 @@ function search(array, value, start, end) {
 }
 
 console.log(search(arr, 5, 0, arr.length))
+
+module.exports = {
+	search
+}
