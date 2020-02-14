@@ -34,6 +34,9 @@
     <Content Include="BinarySearch.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="MapReduce.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="TestBinarySearch.js">
       <SubType>Code</SubType>
     </Content>
