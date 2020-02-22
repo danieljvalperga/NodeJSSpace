@@ -1,3 +1,4 @@
+//------------ INPUTS ------------
 var input1 = {
     Part1: "A",
     Part2: "B",
@@ -31,7 +32,8 @@ var input4 = {
 var input5 = {
     "A": 1,
     "B": 2,
-    "C": 3
+    "C": 3,
+    "ABCD": 1234
 }
 
 var input6 = {
@@ -65,6 +67,7 @@ var input10 = {
     "-+//\\$%&*^@!(){}:<>?": 3
 }
 
+// ------------ SOLUTION ------------
 function readInput(input) {
     var output = [];
     var letters = /^[A-Za-z]+$/;
@@ -93,6 +96,7 @@ function readInput(input) {
     }
 }
 
+//------------ OUTPUT ------------
 console.log(readInput(input1));
 console.log(readInput(input2));
 console.log(readInput(input3));
